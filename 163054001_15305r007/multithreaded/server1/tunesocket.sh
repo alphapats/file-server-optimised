@@ -1,0 +1,11 @@
+sudo sysctl net.ipv4.ip_local_port_range="15000 61000"
+sudo sysctl net.ipv4.tcp_fin_timeout=10
+sudo sysctl net.ipv4.tcp_tw_recycle=1
+sudo sysctl net.ipv4.tcp_tw_reuse=1 
+sudo sysctl net.core.somaxconn=64000
+sudo sysctl net.core.netdev_max_backlog=5000
+sudo sysctl net.ipv4.tcp_max_syn_backlog=2048
+sudo sysctl net.core.rmem_max=12582912
+sudo sysctl net.core.wmem_max=12582912
+sudo sysctl net.ipv4.tcp_rmem= 10240 87380 12582912
+sudo sysctl net.ipv4.tcp_wmem= 10240 87380 12582912

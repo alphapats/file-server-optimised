@@ -1,0 +1,13 @@
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 1
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 2
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 3
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 4
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 5
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 7
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 10
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 12
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 15
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 17
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 20
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 25
+taskset -c 3,4 ./client_timer 127.0.0.1 10000 get 50 30
